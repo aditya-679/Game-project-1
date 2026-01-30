@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
+config/name="slime"
 run/main_scene="uid://nphllid2twlu"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
