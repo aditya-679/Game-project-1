@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bqmknah42vs7u"]
 
-[ext_resource type="Texture2D" uid="uid://ckwdhyrqjury" path="res://assets/spike trap -1.png.png" id="1_sjvdi"]
+[ext_resource type="Texture2D" uid="uid://ckwdhyrqjury" path="res://assets/pictures/spike trap -1.png.png" id="1_sjvdi"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sjvdi"]
 size = Vector2(33, 6)

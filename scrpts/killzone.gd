@@ -1,11 +1,13 @@
 extends Area2D
 
 @onready var timer: Timer = $Timer
+@onready var animation_player: AnimationPlayer = $AnimationPlayer
 
 @warning_ignore("unused_parameter")
 func _on_body_entered(body) -> void:
 	body.get_node("CollisionShape2D").queue_free()
 	print("You Died ")
+	animation_player.play("death")
 	Engine.time_scale = 0.5
 	timer.start()
 	
